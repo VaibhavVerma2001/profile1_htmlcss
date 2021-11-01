@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    /* if we set width then align will not work, so use margin */
+    /* text-align is given to parent */
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+/* for i am vaibhav */
+h1.head1 {
+    color: #66BFBF;
+    margin-top: 0px;
+    position: relative;
+    top: 50px;
+    font-family: 'Sacramento', cursive;
+    /* 16px = 100% -1em */
+    /* em and % get inherited so use rem = root em */
+    font-size: 5rem;  /* ex-for 90 px => %= 90px/16px */
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* 40 px = 40/16 = 2.5*/
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* for i am programmer */
+p.one {
+    position: relative;
+}
+
+/* for © 2018 Vaibhav Verma. */
+p.two {
+    position: relative;
+    top: 15px;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    /* if we set width then align will not work, so use margin */
+    /* text-align: center; */
+    position: relative;
+    padding-top: 100px ;
+
+}
+
+.middle-container {
+    padding-top: 60px;
+
+}
+
+.bottom-container {
+    margin-top: 50px;
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    padding: 40px;
+
+}
+
+hr {
+    border-style: dotted none none ; 
+    border-width: 8px;
+    border-color: grey;
+    width: 4%;
+    opacity: 0.5;
+    margin :60px auto 60px auto;
+}
+
+.top-cloud {
+    position: absolute;
+    left: 1000px;
+
+}
+
+
+/* changing pos of bottom cloud */
+/* div is parent , so postion according that */
+.bottom-cloud {
+    position: absolute;
+    top :350px;
+    right: 0px;
+    left: 0px;
+    margin-left: 350px;
+
+    
+}
+
+
+img.skill-round1{
+    width: 28%;
+    height: 28%;
+    border-radius: 50%;
+    /* float is used to wrap text around element */
+    /* clear prop is like anti-float */
+    float: left;
+    margin-right: 30px;
+}
+
+img.skill-round2{
+    width: 30%;
+    border-radius:50%;
+    float: right;
+    margin-left: 30px;
+}
+
+img.chilli-img {
+    width: 25%;
+    height: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+/* for skill section  */
+.skill-row {
+    width: 50%;
+    margin : 100px auto;
+    text-align:left;
+    line-height: 2;
+
+}
+
+.contact-me {
+    width: 40%;
+    margin : 0 auto 60px auto;
+}
+
+/* conatct me */
+a.btn {
+    background-color: #2bbec4;
+    color : white;
+    text-decoration: none;
+    padding: 6px 8px;
+    position: relative;
+    top: 30px;
+    /* shadow effect */
+    box-shadow: 16px 14px 50px -5px rgba(38,207,216,0.78);
+    -webkit-box-shadow: 16px 14px 50px -5px rgba(38,207,216,0.78);
+    -moz-box-shadow: 16px 14px 50px -5px rgba(38,207,216,0.78);
+}
+
+a.btn:hover {
+    background-color:#11999E;
+    font-weight:500;
+}
+
+a.footer-link {
+    text-decoration: none;
+    color : #11999E;
+    margin-left: 40px;
+
+}
+
+a.footer-link:hover {
+    font-size: 1.25rem;
+}
